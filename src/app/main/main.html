@@ -1,0 +1,24 @@
+<form name="dashboardForm" novalidate>
+    <div class="container jumbotron">
+        <div>
+            <acme-navbar/>
+        </div>
+        <div class="form-group row">
+            <table st-table="rowCollection" class="col-md-10 table">
+                <thead>
+                <tr >
+                    <th></th>
+                    <th class="center">App 1</th>
+                    <th class="center">App 2</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="row in rowCollection">
+                    <th class="center">{{row.sitName}}</th>
+                    <td ng-repeat="status in row.overallStatus" class="center"><a href="#" ng-class="{'red':status=='R','yellow':status=='Y','green':status=='G'}"></a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,41 @@
+.thumbnail {
+  height: 200px;
+
+  img.pull-right {
+    width: 50px;
+  }
+}
+
+.attribute-label {
+  text-align: left;
+  padding: 5px 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.red {
+  background: #f34343;
+  padding: 20px;
+  display: inline-block;
+  width: 80%;
+}
+
+.yellow {
+  background: #f5f57c;
+  display: inline-block;
+  padding: 20px;
+  width: 80%;
+}
+
+.green {
+  background: green;
+  padding: 20px;
+  display: inline-block;
+  width: 80%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
