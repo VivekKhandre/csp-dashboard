@@ -1,0 +1,6 @@
+Please execute following steps
+Step 1 : npm install --global gulp
+Step 2 : npm install
+Step 3 : bower install
+Step 4 : gulp serve
+Step 5 : http://localhost:3000
